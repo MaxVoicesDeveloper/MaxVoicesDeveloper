@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    background-color: #464646;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.menu ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style-type: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+.checker-main{
+    position: fixed;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.checker{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.radio{
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.radio:hover{
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.main__info img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.main__info > span{
+    font-size: 60px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__info span p{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.main__info > p{
+    width: 550px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.mainhr{
+    width: 600px;
+    height: 5px;
+    background: black;
+    border-radius: 100px;
+}
+
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectsblock{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 35px;
+    width: 700px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 20px;
+}
+
+.project span{
+    font-size: 60px;
+}
+
+.project p{
+    width: 70%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.trafic{
+    background-image: url("../img/backobj/Trafic.jpg");
+}
+
+.russianarts{
+    background-image: url("../img/backobj/RussianArts.jpg");
+}
+
+.blanko{
+    background-image: url("../img/backobj/blanko.jpg");
+}
+
+.vestnik{
+    background-image: url("../img/backobj/Vestnik.jpg");
+}
+
+.hrprodhr{
+    width: 80%;
+    background: black;
+    height: 5px;
+    border-radius: 100px;
+}
+
