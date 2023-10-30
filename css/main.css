@@ -3,6 +3,33 @@
     padding: 0;
 }
 
+*,
+html * /* override x.xhtml.ru style */ 
+{
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track {
+  background: orange;
+}
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 5px;
+  border: 3px solid orange;
+}
+
+/* this stuff below doesn't
+   affect scrollbar styling */
+
+
 html,body{
     width: 100%;
     height: 100%;
@@ -13,6 +40,9 @@ html,body{
 body{
     width: 100%;
     height: 100%;
+    background-image: url('../img/background/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .container{
@@ -72,7 +102,7 @@ body{
 }
 
 .radio{
-    background-color: black;
+    background-color: white;
     width: 25px;
     height: 25px;
     border-radius: 100%;
@@ -92,7 +122,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
+    color: white;
 }
 
 .main__info img{
@@ -124,7 +154,7 @@ body{
 .mainhr{
     width: 600px;
     height: 5px;
-    background: black;
+    background: white;
     border-radius: 100px;
 }
 
@@ -138,7 +168,9 @@ body{
 .projectsblock{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 .project{
@@ -161,7 +193,7 @@ body{
 .project p{
     width: 70%;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .trafic{
@@ -182,8 +214,139 @@ body{
 
 .hrprodhr{
     width: 80%;
-    background: black;
+    background: white;
     height: 5px;
     border-radius: 100px;
 }
 
+.project button{
+    padding: 20px;
+    border-radius: 10px;
+    background: #723232;
+    color: white;
+    transition: 500ms all;
+    font-size: 20px;
+    border: none;
+    width: 250px;
+    font-weight: bolder;
+}
+
+.project button:hover{
+    background: #964545;
+    cursor: pointer;
+}
+
+.orders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #865E82;
+    border-radius: 20px;
+    color: white;
+    height: 22.71vw;
+    width: 635px;
+}
+
+.order span{
+    font-size: 2.34vw;
+    font-weight: bolder;
+}
+
+.order input{
+    width: 75%;
+    padding: 0.78vw;
+    border-radius: 20px;
+    border: none;
+    background: white;
+}
+
+.hrorderhr{
+    width: 80%;
+    background: white;
+    height: 0.26vw;
+    border-radius: 20px;
+}
+
+.order button{
+    width: 13.02vw;
+    border: none;
+    font-size: 1.04vw;
+    border-radius: 20px;
+    background: #723232; 
+    padding: 0.78vw;
+    color: white;
+    font-weight: bolder;
+    transition: 500ms;
+}
+
+.order button:hover{
+    background: #964545;
+    cursor: pointer;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme span{
+    font-size: 2.86vw;
+}
+
+.aboutme p{
+    font-size: 1.30vw;
+    width: 26.04vw;
+    text-align: center;
+}
+
+.aboutme img{
+    width: 20.83vw;
+    height: 20.83vw;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+    font-size: 25px;
+}
+
+.social span{
+    display: flex;
+    align-items: center;
+    font-size: 2.86vw;
+    text-align: center;
+}
+
+.social__main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.abouts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
