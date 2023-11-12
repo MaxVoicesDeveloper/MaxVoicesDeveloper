@@ -7,7 +7,7 @@
 html * /* override x.xhtml.ru style */ 
 {
   scrollbar-width: thin;
-  scrollbar-color: blue orange;
+  scrollbar-color: rgb(236, 236, 236) rgb(148, 148, 148);
 }
 
 *::-webkit-scrollbar,
@@ -17,13 +17,13 @@ html *::-webkit-scrollbar {
 }
 *::-webkit-scrollbar-track,
 html *::-webkit-scrollbar-track {
-  background: orange;
+  background: rgb(148, 148, 148);
 }
 *::-webkit-scrollbar-thumb,
 html *::-webkit-scrollbar-thumb {
-  background-color: blue;
+  background-color: rgb(236, 236, 236);
   border-radius: 5px;
-  border: 3px solid orange;
+  border: 3px solid rgb(148, 148, 148);
 }
 
 /* this stuff below doesn't
@@ -37,12 +37,16 @@ html,body{
     padding: 0;
 }
 
+.container__main__window{
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(197deg, #C177FB 0%, #E9D2FC 100%);
+        background-size: 100%;
+}
+
 body{
-    width: 100%;
     height: 100%;
-    background-image: url('../img/background/background.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
+    width: 100%;
 }
 
 .container{
@@ -53,7 +57,7 @@ body{
 .header{
     width: 100%;
     background-color: #464646;
-    height: 80px;
+    height: 7vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,9 +84,13 @@ body{
 
 .menu ul li a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 2.5vh;
     color: white;
     font-weight: bolder;
+}
+
+.menu ul li a:hover{
+    color: rgb(255, 206, 206);
 }
 
 .checker-main{
@@ -98,13 +106,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 500px;
+    height: 50%;
 }
 
 .radio{
     background-color: white;
-    width: 25px;
-    height: 25px;
+    width: 1.4vw;
+    height: 2.5vh;
     border-radius: 100%;
 }
 
@@ -126,14 +134,14 @@ body{
 }
 
 .main__info img{
-    width: 300px;
-    height: 300px;
+    width: 14vw;
+    height: 27vh;
     object-fit: cover;
     border-radius: 100%;
 }
 
 .main__info > span{
-    font-size: 60px;
+    font-size: 6vh;
     font-weight: bolder;
     display: flex;
     flex-direction: column;
@@ -141,19 +149,19 @@ body{
 }
 
 .main__info span p{
-    font-size: 40px;
+    font-size: 4vh;
     font-weight: lighter;
 }
 
 .main__info > p{
-    width: 550px;
-    font-size: 25px;
+    width: 30%;
+    font-size: 2.5vh;
     text-align: center;
 }
 
 .mainhr{
-    width: 600px;
-    height: 5px;
+    width: 30%;
+    height: 0.5vh;
     background: white;
     border-radius: 100px;
 }
@@ -236,61 +244,65 @@ body{
     cursor: pointer;
 }
 
+
 .orders{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.order{
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #865E82;
-    border-radius: 20px;
-    color: white;
-    height: 22.71vw;
+.orders form{
     width: 635px;
+    height: 435px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
 }
 
-.order span{
-    font-size: 2.34vw;
+.text-field{
+    position: relative;
+    width: 335px;
+    margin: 20px;
+}
+
+.text-field__inp{
+    width: 100%;
+    height: 30px;
+    border-radius: 9px;
+    border: none;
+    outline:none;
+    transition: 0.5s all;
     font-weight: bolder;
 }
 
-.order input{
-    width: 75%;
-    padding: 0.78vw;
-    border-radius: 20px;
-    border: none;
-    background: white;
+.text-field__placeholder{
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    color: #d6d0d0;
+    pointer-events: none;
+    padding: 3px;
+    background-color: white; 
+    transition: 0.5s all;
+    border-radius: 2px;
 }
 
-.hrorderhr{
-    width: 80%;
-    background: white;
-    height: 0.26vw;
-    border-radius: 20px;
+.text-field__inp:focus, .text-field__inp:not(:focus):valid{
+    border-radius: 0px 5px 5px 5px;
 }
 
-.order button{
-    width: 13.02vw;
-    border: none;
-    font-size: 1.04vw;
-    border-radius: 20px;
-    background: #723232; 
-    padding: 0.78vw;
-    color: white;
-    font-weight: bolder;
-    transition: 500ms;
-}
-
-.order button:hover{
-    background: #964545;
-    cursor: pointer;
+.text-field__inp:focus + .text-field__placeholder,.text-field__inp:not(:focus):valid + .text-field__placeholder
+{
+    top: -21px;
+    left: 0;
+    font-size: 17px;
+    color: black;
 }
 
 .about{
@@ -344,9 +356,9 @@ body{
     align-items: center;
 }
 
-
 .abouts{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
