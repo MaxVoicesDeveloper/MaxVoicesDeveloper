@@ -2,28 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>MaxVoicesDev</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <div class="mobileMenu">
+        <span>Menu</span>
+        <ul class="sob">
+            <li><a href="#main">Home</a></li>
+            <hr>
+            <li><a href="#projects">My projects</a></li>
+            <hr>
+            <li><a href="#orders">Order</a></li>
+            <hr>
+            <li><a href="#abouts">About me</a></li>
+        </ul>
+    </div>
     <div class="header">
+        <div class="mobBut">
+            <div class="menu__burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
         <div class="menu">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">My projects</a></li>
-                <li><a href="#">Order</a></li>
-                <li><a href="#">About me</a></li>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#projects">My projects</a></li>
+                <li><a href="#orders">Order</a></li>
+                <li><a href="#abouts">About me</a></li>
             </ul>
         </div>
     </div>
-    <div class="container__main__window">
+    <div class="container__main__window" id="main">
         <div class="checker-main">
             <div class="checker">
-                <div class="radio"></div>
-                <div class="radio"></div>
-                <div class="radio"></div>
-                <div class="radio"></div>
+                <a href="#main"><div class="radio"></div></a>
+                <a href="#projects"><div class="radio"></div></a>
+                <a href="#orders"><div class="radio"></div></a>
+                <a href="#abouts"><div class="radio"></div></a>
             </div>
         </div>
             <div class="container main">
@@ -40,7 +61,7 @@
                 </p>
                 </div>
             </div>
-            <div class="container projects">
+            <div class="container projects" id="projects">
                 <div class="projectsblock">
                     
                     <div class="project trafic">
@@ -79,8 +100,9 @@
             </div>
                 </div>
         
-                <div class="container orders">
+                <div class="container orders" id="orders">
                     <form action="order--wrappes">
+                        <span>Order</span>
                         <div class="text-field">
                             <input class="text-field__inp" type="text" required>
                             <label class="text-field__placeholder">Name</label>
@@ -97,10 +119,11 @@
                             <input class="text-field__inp" type="text" required>
                             <label class="text-field__placeholder">Gmail</label>
                         </div>
+                        <button>Button</button>
                     </form>
                 </div>
         
-                <div class="container abouts">
+                <div class="container abouts" id="abouts">
                     <div class="about">
                         <div class="aboutme">
                             <img src="img/MaxVoicesFooter.png" alt="Check internet connection">
@@ -125,5 +148,7 @@
                     </div>
                 </div>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -35,6 +35,8 @@ html,body{
     height: 100%;
     margin: 0;
     padding: 0;
+    z-index: 500;
+    background: rgb(0, 0, 0)
 }
 
 .container__main__window{
@@ -47,6 +49,46 @@ html,body{
 body{
     height: 100%;
     width: 100%;
+    background-color: white;
+}
+
+.mobileMenu{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #C177FB;
+    color: white;
+    transform: translateX(100%);
+    transition: all 0.5s;
+}
+
+.checked{
+    display: flex;
+    transform: translateX(0%);
+}
+
+.mobileMenu span{
+    font-size: 45px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.mobileMenu ul{
+    text-align: center;
+}
+
+.mobileMenu ul li{
+    list-style-type: none;
+}
+
+.mobileMenu ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 35px;
 }
 
 .container{
@@ -56,12 +98,12 @@ body{
 
 .header{
     width: 100%;
-    background-color: #464646;
-    height: 7vh;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
+    background: gray;
 }
 
 .menu{
@@ -84,14 +126,57 @@ body{
 
 .menu ul li a{
     text-decoration: none;
-    font-size: 2.5vh;
+    font-size: 25px;
     color: white;
     font-weight: bolder;
+    transition: 0.5s all;
+}
+
+.mobBut{
+    z-index: 5;
+    position: relative;
 }
 
 .menu ul li a:hover{
     color: rgb(255, 206, 206);
 }
+
+
+
+.menu__burger.active div:nth-of-type(1) {
+    position: absolute;
+    display: none;
+  }
+  .menu__burger.active div:nth-of-type(2) {
+    top: 50%;
+    transform: rotate(45deg);
+    position: absolute;
+  }
+  .menu__burger.active div:nth-of-type(3) {
+    top: 50%;
+    transform: rotate(-45deg); 
+    position: absolute;
+  }
+
+.menu__burger{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    z-index: 5;
+}
+
+
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    border-radius: 100px;
+    transition: all 0.5s;
+}
+
 
 .checker-main{
     position: fixed;
@@ -111,8 +196,8 @@ body{
 
 .radio{
     background-color: white;
-    width: 1.4vw;
-    height: 2.5vh;
+    width: 25px;
+    height: 25px;
     border-radius: 100%;
 }
 
@@ -134,8 +219,8 @@ body{
 }
 
 .main__info img{
-    width: 14vw;
-    height: 27vh;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 100%;
 }
@@ -155,13 +240,13 @@ body{
 
 .main__info > p{
     width: 30%;
-    font-size: 2.5vh;
+    font-size: 20px;
     text-align: center;
 }
 
 .mainhr{
     width: 30%;
-    height: 0.5vh;
+    height: 5px;
     background: white;
     border-radius: 100px;
 }
@@ -264,6 +349,29 @@ body{
     border-radius: 20px;
 }
 
+.orders form span{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.orders form button{
+    padding: 15px;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+    border-radius: 9px;
+    background: #964545;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s all;
+}
+
+.orders form button:hover{
+    background: #c26565;
+}
+
 .text-field{
     position: relative;
     width: 335px;
@@ -330,8 +438,8 @@ body{
 }
 
 .aboutme img{
-    width: 20.83vw;
-    height: 20.83vw;
+    width: 250px;
+    height: 250px;
 }
 
 .social{
@@ -345,7 +453,7 @@ body{
 .social span{
     display: flex;
     align-items: center;
-    font-size: 2.86vw;
+    font-size: 26px;
     text-align: center;
 }
 
@@ -362,3 +470,116 @@ body{
     align-items: center;
 }
 
+@media (max-width: 870px) {
+
+    .checker{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .menu{
+        display: none;
+    }
+
+    .menu__burger{
+        display: flex;
+    }
+
+    .container{
+        height: 120%;
+    }
+    
+    .main__info img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main__info span{
+        font-size: 50px;
+    }
+
+    .main__info span p{
+        font-size: 35px;
+    }
+
+    .mainhr{
+        width: 350px;
+    }
+    
+    .main__info > p{
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .projectsblock{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .project{
+        width: 365px;
+        height: 200px;
+    }
+
+    .project span{
+        font-size: 25px;
+    }
+
+    .project p{
+        font-size: 20px;
+    }
+
+    .project button{
+        width: 100px;
+        height: 50px;
+        font-size: 10px;
+    }
+
+    .projects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 180%;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 50%;
+    }
+
+    .aboutme img{
+        width: 125px;
+        height: 125px;
+    }
+
+    .social span{
+        font-size: 25px;
+    }
+
+    .aboutme span{
+        font-size: 45px;
+    }
+
+    .aboutme p{
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .social span img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .social{
+        height: 300px;
+    }
+  }
