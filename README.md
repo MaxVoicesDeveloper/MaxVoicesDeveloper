@@ -47,9 +47,8 @@
 ---
 
 ## 📬 Как со мной связаться?
-📧 **Email**: _твой email_  
-🔗 **Telegram**: [_@твой_ник_](https://t.me/твой_ник)  
-🖥️ **Портфолио**: _(если есть, укажи ссылку)_  
+📧 **Email**: _maxvoicesyd@ya.ru_  
+🔗 **Telegram**: [_@MaxVoicesDeveloper_](https://t.me/https://t.me/MaxVoicesDeveloper)  
 
 ---
 
