@@ -38,7 +38,7 @@
   <img src="https://img.shields.io/badge/Bitrix-%23FF0000.svg?style=for-the-badge&logo=bitrix&logoColor=white">
   <img src="https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/React-%2361D9FA.svg?style=for-the-badge&logo=react&logoColor=white">
+  <img src="https://img.shields.io/badge/React-%2361D9FA.svg?style=for-the-badge&logo=react&logoColor=white&labelColor=white">
 </p>
 
 ---
