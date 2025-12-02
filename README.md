@@ -56,7 +56,6 @@
 
 ## 📈 Статистика GitHub:
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MaxVoicesDeveloper&show_icons=true&theme=radical" width="450px">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=MaxVoicesDeveloper&theme=radical" width="450px">
 </p>
 
