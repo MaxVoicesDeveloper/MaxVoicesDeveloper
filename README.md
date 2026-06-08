@@ -92,28 +92,6 @@
   <img width="420" src="https://nirzak-streak-stats.vercel.app/?user=MaxVoicesDeveloper&theme=nord&hide_border=false" alt="." />
 </div>-->
 
-
-
-<!-- Best Repositories -->
-<div align="center">
-  <h3>⭐️ Interesting Repositories</h3>
-  <p align="center">
-<a href="https://github.com/MaxVoicesDeveloper/Wall-E-Desk">
-  <img width="400" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=MaxVoicesDeveloper&repo=Wall-E-Desk" /></a>
-<a href="https://github.com/MaxVoicesDeveloper/Void-OSE">
-  <img width="400" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=MaxVoicesDeveloper&repo=Void-OSE" /></a>
-<a href="https://github.com/MaxVoicesDeveloper/IDE-Cosmo">
-  <img width="400" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=MaxVoicesDeveloper&repo=IDE-Cosmo" /></a>
-<a href="https://github.com/MaxVoicesDeveloper/Books-Of-Knowledge">
-  <img width="400" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=MaxVoicesDeveloper&repo=Books-Of-Knowledge" /></a>
-<a href="https://github.com/MaxVoicesDeveloper/PixelVault">
-  <img width="400" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=MaxVoicesDeveloper&repo=PixelVault" /></a>
-<a href="https://github.com/MaxVoicesDeveloper/My-Projects">
-  <img width="400" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=MaxVoicesDeveloper&repo=My-Projects" /></a>
-  </p>
-</div>
-
-
 <!-- Tech Stack -->
 <h3 align="center">💻 Tech Stack</h3>
 <div align="center">
