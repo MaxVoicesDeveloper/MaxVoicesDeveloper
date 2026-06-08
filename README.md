@@ -48,5 +48,3 @@
 🔗 **Telegram**: [_@MaxVoicesDeveloper_](https://t.me/https://t.me/MaxVoicesDeveloper)  
 
 ---
-
-🔥 **_"Код - это искусство. Я создаю, учусь и двигаюсь вперёд."_** 🚀
