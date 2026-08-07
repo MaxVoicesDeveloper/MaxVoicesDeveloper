@@ -70,8 +70,8 @@
 <h3 align="center">📚 Languages & Tools I Have Placed My Hands On</h3>
 <div align="center">
   <img src="https://skillicons.dev/icons?i=html,css,javascript,php,mysql,git,github,vscode,figma" /><br>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,bootstrap,less,linux,docker" /><br>
-  <img src="https://skillicons.dev/icons?i=python,laravel,nodejs,npm,bash" /><br>
+  <img src="https://skillicons.dev/icons?i=react,typescript,bootstrap,less,linux,docker" /><br>
+  <img src="https://skillicons.dev/icons?i=python,nodejs,npm,bash" /><br>
 </div>
 
 <br>
