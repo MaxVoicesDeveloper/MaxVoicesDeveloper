@@ -76,9 +76,3 @@
 <p align="center"><img src="https://github.com/user-attachments/assets/81246bf0-4911-430b-b71e-55a5d0c8b739" width="100%" alt="Lo-fi пиксельная анимация: сакура, город и вода под мостом" /></p>
 <p align="center"><sub>Тихий вечер. Хороший плейлист. Ещё один коммит.</sub></p>
 
-<details>
-<summary>🎨 Источники пиксельных сцен</summary>
-
-Ночная комната, рабочее место и городской пейзаж найдены в [подборке pixelartgifs](https://github.com/hackwithdev/pixelartgifs). Ссылки ведут на опубликованные GIF. Авторство этих сцен принадлежит их создателям. Рыцарь у крепости создан для моего портфолио.
-
-</details>
