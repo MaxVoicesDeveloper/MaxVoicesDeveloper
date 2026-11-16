@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/hello.svg" width="100%" alt="Привет, я Макс" /></p>
 
-<p align="center"><img src="assets/lofi-scene.gif" width="100%" alt="Lo-fi: кодер за компьютером, кот и ретрокомпьютер в растениях. Пиксельная анимация." /></p>
+<p align="center"><img src="assets/lofi-scene.gif" width="760" alt="Lo-fi: кодер за компьютером, кот и ретрокомпьютер в растениях. Пиксельная анимация." /></p>
 
 <p align="center"><img src="assets/intro-short.svg" width="100%" alt="Делаю сайты и интерфейсы. От наброска до рабочей кнопки. Здесь заказы для бизнеса и мои проекты. Загляни в код. Хочешь сделать что-то вместе? Напиши. Буду рад знакомству." /></p>
 
@@ -28,7 +28,7 @@
 
 <p align="center"><a href="https://github.com/MaxVoicesDeveloper/kvan-comments"><img src="assets/project-kvan.svg" width="100%" alt="Комментарии для kvan.tech. React. Мой дизайн и код. Открыть исходники." /></a></p>
 
-<p align="center"><img src="assets/lofi-window.gif" width="100%" alt="Тихий вечер у окна: дождь, свеча и пиксельный свет." /></p>
+<p align="center"><img src="assets/lofi-window.gif" width="640" alt="Тихий вечер у окна: дождь, свеча и пиксельный свет." /></p>
 
 <p align="center"><img src="assets/coffee.svg" width="100%" alt="На кофеёк" /></p>
 <p align="center"><a href="https://yoomoney.ru/to/4100119687850922"><img src="assets/coffee-button.svg" width="480" alt="Оставить на кофе. Сумма на твой выбор. Открыть ЮMoney." /></a></p>
