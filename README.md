@@ -1,122 +1,84 @@
 <p align="center">
-  <img src="assets/cover.svg" width="100%" alt="Максим Голосов · Веб-разработчик · MaxVoices" />
+  <img src="https://github.com/user-attachments/assets/a7605427-fa69-416f-85ec-955ea51490c1" width="100%" alt="Lo-fi: ночная комната программиста, город за окном и свет монитора" />
 </p>
+
+<h1 align="center">Макс · MaxVoices</h1>
+<p align="center"><b>Веб-разработка · Пиксели · Кофе · Ночные сборки</b></p>
+<p align="center"><sub>Собираю идеи в работающие интерфейсы.</sub></p>
 
 <p align="center">
-  <a href="https://t.me/MaxVoicesDeveloper">Написать мне</a> ·
-  <a href="#избранные-работы">Посмотреть работы</a> ·
-  <a href="https://github.com/MaxVoicesDeveloper?tab=repositories">Все репозитории</a>
+  <a href="https://github.com/MaxVoicesDeveloper"><img src="https://komarev.com/ghpvc/?username=MaxVoicesDeveloper&label=ПРОСМОТРЫ&color=7c83ad&style=for-the-badge" alt="Просмотры профиля" /></a>
+  <a href="https://github.com/MaxVoicesDeveloper?tab=repositories&amp;sort=stargazers"><img src="https://img.shields.io/github/stars/MaxVoicesDeveloper?style=for-the-badge&amp;label=ЗВЁЗДЫ&amp;color=b8808e&amp;labelColor=252735" alt="Звёзды" /></a>
+  <a href="https://github.com/MaxVoicesDeveloper?tab=followers"><img src="https://img.shields.io/github/followers/MaxVoicesDeveloper?style=for-the-badge&amp;label=ПОДПИСЧИКИ&amp;color=7c83ad&amp;labelColor=252735" alt="Подписчики" /></a>
 </p>
 
-# Привет, я Макс
+<br />
 
-Создаю сайты для бизнеса, разрабатываю интерфейсы и разбираюсь в том, как связать их с работающим продуктом. Люблю спокойную эстетику, пиксельные миры и вещи, которые решают конкретную задачу.
+### 🌙 Немного обо мне
 
-Здесь мои клиентские заказы, собственные проекты и эксперименты. За каждой работой стоят задача, мои решения и результат, который можно посмотреть в коде.
+<img align="right" src="https://github.com/user-attachments/assets/29cf9353-a43a-4750-bcf1-94fb6a17c9bb" width="38%" alt="Пиксельная анимация: программист за несколькими мониторами" />
+
+🌱 Фронтенд-разработчик из России. Расту в сторону Full Stack.<br />
+🛠 Работаю с Битрикс, HTML, CSS, JavaScript и PHP.<br />
+📚 Изучаю React, Next.js, TypeScript, MySQL и Laravel.<br />
+⚡ Развиваю Synclick, собственные инструменты и клиентские проекты.<br />
+🏰 Хочу стать сильным разработчиком и построить своё веб-агентство.
+
+<br clear="all" />
+<br />
+
+<h3 align="center">📚 Языки и инструменты, с которыми я работал</h3>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MaxVoicesDeveloper/darya-atelier/main/docs/assets/watchfire.gif" width="100%" alt="Пиксельный рыцарь у ночной крепости, мерцающие костры и звёзды" />
-  <br /><sub>Ночная мастерская. Кофе остывает, работа движется.</sub>
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,php,mysql,git,github,vscode,figma&amp;theme=dark" alt="HTML, CSS, JavaScript, PHP, MySQL, Git, GitHub, VS Code, Figma" /><br />
+  <img src="https://skillicons.dev/icons?i=react,typescript,bootstrap,less,linux,docker&amp;theme=dark" alt="React, TypeScript, Bootstrap, LESS, Linux, Docker" /><br />
+  <img src="https://skillicons.dev/icons?i=python,nodejs,npm,bash&amp;theme=dark" alt="Python, Node.js, npm, Bash" />
 </p>
 
-## Что я делаю
+<h3 align="center">💻 Стек технологий</h3>
 
-- **Сайты для бизнеса.** Превращаю задачу заказчика в структуру страницы, интерфейс и вёрстку.
-- **Фронтенд.** Работаю с HTML, CSS, LESS, JavaScript и React. Уделяю внимание формам, состояниям и адаптивности.
-- **Интеграции.** Работаю с Битрикс и PHP, развиваю навыки серверной разработки.
-- **Собственные инструменты.** Экспериментирую с утилитами для macOS, автоматизацией и игровыми проектами.
+<p align="center">
+  <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/REACT_NATIVE-20232a?style=for-the-badge&amp;logo=react&amp;logoColor=61dafb" alt="React Native" /></a>
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/NEXT-000000?style=for-the-badge&amp;logo=next.js&amp;logoColor=white" alt="Next.js" /></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/NODE.JS-6da55f?style=for-the-badge&amp;logo=node.js&amp;logoColor=white" alt="Node.js" /></a>
+  <a href="https://mysql.com/"><img src="https://img.shields.io/badge/MYSQL-4479a1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" alt="MySQL" /></a>
+</p>
 
-## Избранные работы
+<br />
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p align="center"><img src="https://raw.githubusercontent.com/MaxVoicesDeveloper/darya-atelier/main/docs/assets/watchfire.gif" width="62%" alt="Пиксельный рыцарь у ночной крепости" /></p>
 
-### СтройДвор на Карболите
+<h3 align="center">⚔️ Из моей мастерской</h3>
 
-<a href="https://github.com/MaxVoicesDeveloper/stroydvor-karbolit"><img src="https://raw.githubusercontent.com/MaxVoicesDeveloper/stroydvor-karbolit/main/docs/assets/site-preview.png" alt="Главная страница СтройДвора" width="100%" /></a>
-
-**Оплаченный клиентский заказ.** Редизайн главной страницы строительного рынка в Орехово-Зуево. Каталог, категории и адаптивная вёрстка.
-
-HTML · CSS / LESS · JavaScript · jQuery
-
-[Исходники](https://github.com/MaxVoicesDeveloper/stroydvor-karbolit) · [Открыть сайт](https://stroydvor.vercel.app)
-
-</td>
-<td width="50%" valign="top">
-
-### DAR'YA · Ателье-мастерская
-
-<a href="https://github.com/MaxVoicesDeveloper/darya-atelier"><img src="https://raw.githubusercontent.com/MaxVoicesDeveloper/darya-atelier/main/docs/assets/site-preview.png" alt="Сайт ателье DAR'YA" width="100%" /></a>
-
-**Клиентский проект по бартеру.** Сайт ателье: услуги, примеры работ и связь с мастерской. Дизайн создавался прямо при вёрстке.
-
-HTML · CSS · JavaScript
-
-[Исходники и запуск](https://github.com/MaxVoicesDeveloper/darya-atelier)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Комментарии для kvan.tech
-
-<a href="https://github.com/MaxVoicesDeveloper/kvan-comments"><img src="https://raw.githubusercontent.com/MaxVoicesDeveloper/kvan-comments/main/docs/assets/site-preview.png" alt="Форма комментария для kvan.tech" width="100%" /></a>
-
-**Мой дизайн и код, написанный вручную без ИИ.** React-интерфейс с комментариями, вложенными ответами и валидацией форм.
-
-React · Vite · JavaScript · CSS / LESS
-
-[Исходники и запуск](https://github.com/MaxVoicesDeveloper/kvan-comments)
-
-</td>
-<td width="50%" valign="top">
-
-### AVOS
-
-**Собственный игровой проект.** Атмосферная сборка Minecraft 1.20.1 для игры с друзьями. Настройки, совместимость модов и оформление собраны в единый опыт.
-
-Minecraft · Моды · Конфигурации · Веб
-
-[Посмотреть проект](https://github.com/MaxVoicesDeveloper/avos)
-
-### Synclick
-
-Собственный проект веб-агентства: площадка для развития навыков и работы с клиентскими задачами.
-
-[Посмотреть исходники](https://github.com/MaxVoicesDeveloper/Synclick)
-
-</td>
-</tr>
-</table>
-
-## Мои инструменты
-
-| Задача | С чем работаю |
+| Проект | Что сделал |
 | :--- | :--- |
-| Интерфейсы | HTML, CSS, LESS, JavaScript, React |
-| Дизайн и вёрстка | Figma, адаптивные страницы, компоненты и формы |
-| CMS и серверная часть | Битрикс, PHP |
-| Рабочий процесс | Git, GitHub, VS Code, npm, Vite |
-| Развиваю дальше | TypeScript, Next.js, MySQL, Laravel, Linux и Docker |
+| [**СтройДвор на Карболите**](https://github.com/MaxVoicesDeveloper/stroydvor-karbolit) · [сайт ↗](https://stroydvor.vercel.app) | Оплаченный клиентский заказ. Редизайн главной страницы, каталог, адаптивная вёрстка. |
+| [**DAR'YA · Ателье-мастерская**](https://github.com/MaxVoicesDeveloper/darya-atelier) | Сайт по бартеру. Услуги, работы и контакты. Дизайн создавался сразу в вёрстке. |
+| [**Комментарии для kvan.tech**](https://github.com/MaxVoicesDeveloper/kvan-comments) | Мой дизайн и React-код, написанный вручную без ИИ. Формы, валидация, ответы. |
+| [**AVOS**](https://github.com/MaxVoicesDeveloper/avos) | Собственная атмосферная сборка Minecraft 1.20.1 для игры с друзьями. |
+| [**Synclick**](https://github.com/MaxVoicesDeveloper/Synclick) | Собственный проект веб-агентства. |
 
-## Как я использую ИИ
+<br />
 
-ИИ помогает мне проверять идеи, быстрее собирать прототипы и разбираться в незнакомых инструментах. Задачу, направление работы и решения определяю я. В проектах честно указываю, где использовал ИИ, а где писал код самостоятельно.
+### 🤖 Я и ИИ
 
-Мой ориентир: понимать результат, уметь его проверить и довести до состояния, в котором им можно пользоваться.
+Использую ИИ как инструмент для прототипов, экспериментов и разработки. Идея, задача и решения остаются за мной. В проектах указываю, где помогал ИИ, а где код написан вручную.
 
-## Дальше по пути
+<h3 align="center">☕ Заглянуть в мастерскую</h3>
+<p align="center">Открыт к проектам, интересным задачам и работе в команде.</p>
+<p align="center">
+  <a href="https://t.me/MaxVoicesDeveloper"><img src="https://img.shields.io/badge/НАПИСАТЬ_В_TELEGRAM-7386b5?style=for-the-badge&amp;logo=telegram&amp;logoColor=white" alt="Написать в Telegram" /></a>
+  <a href="https://vk.com/maxvoices"><img src="https://img.shields.io/badge/ВКОНТАКТЕ-566386?style=for-the-badge&amp;logo=vk&amp;logoColor=white" alt="ВКонтакте" /></a>
+</p>
 
-Углубляюсь в React и TypeScript, развиваюсь в сторону полноценной веб-разработки. Хочу делать полезные продукты и расти через реальные задачи, обратную связь и работу в команде.
+<br />
 
-## Давай поработаем
+<p align="center"><img src="https://github.com/user-attachments/assets/81246bf0-4911-430b-b71e-55a5d0c8b739" width="100%" alt="Lo-fi пиксельная анимация: сакура, город и вода под мостом" /></p>
+<p align="center"><sub>Тихий вечер. Хороший плейлист. Ещё один коммит.</sub></p>
 
-Открыт к обсуждению веб-проектов, клиентских задач и сотрудничества с командой.
+<details>
+<summary>🎨 Источники пиксельных сцен</summary>
 
-**[Написать в Telegram](https://t.me/MaxVoicesDeveloper)** · [ВКонтакте](https://vk.com/maxvoices)
+Ночная комната, рабочее место и городской пейзаж найдены в [подборке pixelartgifs](https://github.com/hackwithdev/pixelartgifs). Ссылки ведут на опубликованные GIF. Авторство этих сцен принадлежит их создателям. Рыцарь у крепости создан для моего портфолио.
 
----
-
-<p align="center"><sub>Максим Голосов · MaxVoices<br />Спокойный ритм. Внимание к деталям. Код с характером.</sub></p>
+</details>
