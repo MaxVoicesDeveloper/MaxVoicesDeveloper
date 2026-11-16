@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="84" viewBox="0 0 380 84" role="img" aria-labelledby="title desc">
+<title id="title">ОСТАВИТЬ НА КОФЕ</title><desc id="desc">ЮMoney. Сумма на ваш выбор.</desc>
+<style>.steam{animation:rise 2.8s ease-in-out infinite}.s2{animation-delay:.7s}.s3{animation-delay:1.4s}@keyframes rise{0%,100%{opacity:.25;transform:translateY(1px)}50%{opacity:1;transform:translateY(-3px)}}</style>
+<path fill="#0e111a" d="M8 8h364v72H8z"/>
+<path fill="#353549" d="M8 0h364v4h4v4h4v64h-4v4h-4v4H8v-4H4v-4H0V8h4V4h4z"/>
+<path fill="#232334" d="M8 4h364v4h4v60h-4v4H8v-4H4V8h4z"/>
+<path fill="#ad9dc6" d="M8 4h364v4H8zM4 8h4v60H4z"/>
+<g shape-rendering="crispEdges">
+<path class="steam" fill="#b9a9cf" d="M25 18h3v7h-3z"/><path class="steam s2" fill="#b9a9cf" d="M35 14h3v10h-3z"/><path class="steam s3" fill="#b9a9cf" d="M45 18h3v7h-3z"/>
+<path fill="#e3ccaa" d="M20 30h34v22h-4v6H24v-6h-4zM54 33h9v4h-9zm6 4h4v12h-4zm-6 12h9v4h-9z"/>
+<path fill="#805e4d" d="M24 33h26v6H24z"/><path fill="#fff0d0" d="M24 40h4v12h-4z"/><path fill="#ad9dc6" d="M17 62h42v4H17z"/>
+</g>
+<text x="84" y="35" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1" fill="#f4e9d8">ОСТАВИТЬ НА КОФЕ</text>
+<text x="84" y="56" font-family="Arial,sans-serif" font-size="12" fill="#b9b0ca">ЮMoney · сумма на ваш выбор</text>
+</svg>
